@@ -692,37 +692,42 @@ architecture and strong integration capabilities ensures collaboration throughou
 
    		<div class="col-twelve">
 
-            <!-- form -->
-            <form name="contactForm" id="contactForm" class="gform" method="POST" action="http://formspree.io/suryakant197@gmail.com">
-      			<fieldset>
+<!--            &lt;!&ndash; form &ndash;&gt;-->
+<!--            <form name="contactForm" id="contactForm" class="gform" method="POST" action="http://formspree.io/suryakant197@gmail.com">-->
+<!--      			<fieldset>-->
 
-                  <div class="form-field">
- 						   <input name="name" type="text" id="name" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="email" id="email" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                 <div class="form-field">
-                     <button class="submitform">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
-							</div>
-                  </div>
+<!--                  <div class="form-field">-->
+<!-- 						   <input name="name" type="text" id="name" placeholder="Name" value="" minlength="2" required="">-->
+<!--                  </div>-->
+<!--                  <div class="form-field">-->
+<!--	      			   <input name="email" id="email" type="email" id="contactEmail" placeholder="Email" value="" required="">-->
+<!--	               </div>-->
+<!--                  <div class="form-field">-->
+<!--	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">-->
+<!--	               </div>                       -->
+<!--                  <div class="form-field">-->
+<!--	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>-->
+<!--	               </div>                      -->
+<!--                 <div class="form-field">-->
+<!--                     <button class="submitform">Submit</button>-->
+<!--                     <div id="submit-loader">-->
+<!--                        <div class="text-loader">Sending...</div>                             -->
+<!--       				      <div class="s-loader">-->
+<!--								  	<div class="bounce1"></div>-->
+<!--								  	<div class="bounce2"></div>-->
+<!--								  	<div class="bounce3"></div>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--                  </div>-->
 
-      			</fieldset>
-      		</form> <!-- Form End -->
+<!--      			</fieldset>-->
+<!--      		</form> &lt;!&ndash; Form End &ndash;&gt;-->
 
+			<form action="http://formspree.io/suryakant197@gmail.com">
+				<input type="email" name="_replyto">
+				<textarea   name="body"></textarea>
+				<input type="submit" value="Send">
+			</form>
             <!-- contact-warning -->
             <div id="message-warning">            	
             </div>            
